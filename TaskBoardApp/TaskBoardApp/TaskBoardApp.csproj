@@ -20,7 +20,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Views\Boards\" />
+    <UpToDateCheckInput Remove="Views\Boards\All.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Views\Boards\All.cshtml" />
   </ItemGroup>
 
 </Project>
