@@ -25,6 +25,30 @@
 
   <ItemGroup>
     <_ContentIncludedByDefault Remove="Views\Boards\All.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Task\Create.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Task\Delete.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Task\Details.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Task\Edit.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Views\Tasks\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Views\Task\Create.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Views\Task\Details.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Views\Task\Edit.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Views\Task\Delete.cshtml" />
   </ItemGroup>
 
 </Project>
